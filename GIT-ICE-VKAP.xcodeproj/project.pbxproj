@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		4D5B328D1DDA716E002FD600 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5B328C1DDA716E002FD600 /* AppDelegate.swift */; };
 		4D5B328F1DDA716E002FD600 /* EhVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5B328E1DDA716E002FD600 /* EhVC.swift */; };
-		4D5B32911DDA716E002FD600 /* BeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5B32901DDA716E002FD600 /* BeVC.swift */; };
+		4D5B32911DDA716E002FD600 /* BeeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5B32901DDA716E002FD600 /* BeeVC.swift */; };
 		4D5B32941DDA716E002FD600 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D5B32921DDA716E002FD600 /* Main.storyboard */; };
 		4D5B32961DDA716E002FD600 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D5B32951DDA716E002FD600 /* Assets.xcassets */; };
 		4D5B32991DDA716E002FD600 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D5B32971DDA716E002FD600 /* LaunchScreen.storyboard */; };
@@ -20,7 +20,7 @@
 		4D5B32891DDA716E002FD600 /* GIT-ICE-VKAP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GIT-ICE-VKAP.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D5B328C1DDA716E002FD600 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4D5B328E1DDA716E002FD600 /* EhVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EhVC.swift; sourceTree = "<group>"; };
-		4D5B32901DDA716E002FD600 /* BeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeVC.swift; sourceTree = "<group>"; };
+		4D5B32901DDA716E002FD600 /* BeeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeeVC.swift; sourceTree = "<group>"; };
 		4D5B32931DDA716E002FD600 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4D5B32951DDA716E002FD600 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D5B32981DDA716E002FD600 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -60,7 +60,7 @@
 			children = (
 				4D5B328C1DDA716E002FD600 /* AppDelegate.swift */,
 				4D5B328E1DDA716E002FD600 /* EhVC.swift */,
-				4D5B32901DDA716E002FD600 /* BeVC.swift */,
+				4D5B32901DDA716E002FD600 /* BeeVC.swift */,
 				4D5B32921DDA716E002FD600 /* Main.storyboard */,
 				4D5B32951DDA716E002FD600 /* Assets.xcassets */,
 				4D5B32971DDA716E002FD600 /* LaunchScreen.storyboard */,
@@ -142,7 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D5B32A31DDA755F002FD600 /* SeaVC.swift in Sources */,
-				4D5B32911DDA716E002FD600 /* BeVC.swift in Sources */,
+				4D5B32911DDA716E002FD600 /* BeeVC.swift in Sources */,
 				4D5B328D1DDA716E002FD600 /* AppDelegate.swift in Sources */,
 				4D5B328F1DDA716E002FD600 /* EhVC.swift in Sources */,
 			);
@@ -294,6 +294,7 @@
 				4D5B329F1DDA716E002FD600 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
